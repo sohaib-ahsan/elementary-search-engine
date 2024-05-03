@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Elementary Search Engine</title>
+    <style type="text/css">
+      body {
+        font-family: sans-serif;
+        background-color: #f5f5f5;
+      }
+      #search-form {
+        width: 500px;
+        margin: 20px auto;
+        text-align: center;
+        box-shadow: 0 0 10px #ccc;
+        padding: 10px;
+        background-color: #fff;
+        border-radius: 10px;
+      }
+      body {
+        background-image: url("background7.jpg");
+        background-size: cover;
+      }
+      .center {
+        width: 55%;
+        margin-top: 10px;
+        margin-left: 210px;
+      }
+      input[type="text"] {
+        width: 60%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        box-sizing: border-box;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        transition: all 0.5s;
+      }
+      input[type="text"]:focus {
+        border: 2px solid #4caf50;
+        outline: none;
+      }
+      .search_button {
+        width: 20%;
+        background-color: #4caf50;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+        font-size: 16px;
+        transition: all 0.5s;
+      }
+      .search_button:hover {
+        background-color: #45a049;
+        box-shadow: 0 0 10px #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="Image.png" alt="HTML5 Icon" class="center" />
+    <form id="search-form" style="background-color: lightcyan">
+      <input type="text" class="input_search" placeholder="Enter Search" />
+      <button class="search_button">Search</button>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
